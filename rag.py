@@ -16,7 +16,7 @@ from langchain_community.document_loaders import PyPDFLoader
 
 
 if "GOOGLE_API_KEY" not in os.environ:
-    os.environ["GOOGLE_API_KEY"] = "AIzaSyA9aELuuO75ooNQYh1SPhVmbrM52WAPoCc"
+    os.environ["GOOGLE_API_KEY"] = ""
     
 
 llm = ChatGoogleGenerativeAI(
